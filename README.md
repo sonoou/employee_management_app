@@ -86,10 +86,10 @@ private static final String PASSWORD = "your_password";
 #### Using Command Line:
 ```bash
 # Compile all Java files
-javac -cp ".;lib/mysql-connector-java-8.0.x.jar" *.java
+javac -cp ".:.lib/mysql-connector-java-8.0.x.jar" *.java
 
 # Run the application
-java -cp ".;lib/mysql-connector-java-8.0.x.jar" EmployeeApp
+java -cp ".:.lib/mysql-connector-java-8.0.x.jar" EmployeeApp
 ```
 
 #### Using VS Code:
